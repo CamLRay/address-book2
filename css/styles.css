@@ -20,11 +20,19 @@ form input {
   width: 380px;
 }
 
+#email {
+  width: 380px;
+}
+
 .btn {
   margin-bottom: 2em;
   display: block;
   margin: auto;
   margin-bottom: 2em;
+}
+
+#address-book {
+  justify-content: center;
 }
 
 ul {
@@ -33,6 +41,8 @@ ul {
   width: 50%;
   border: 1px solid black;
   padding: 10px;
+  margin: 5px;
+  
 }
 
 li {

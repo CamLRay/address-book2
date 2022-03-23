@@ -9,7 +9,7 @@ $(document).ready(function() {
     const phone = $("#phone").val();
     const email = $("#email").val();
     
-    let contact = $("<ul></ul>");
+    let contact = $("<ul class='col-5'></ul>");
     let button = $("<button type='button' class='btn-close btn-danger' aria-label='Close'></button>");
     contact.html(name);
     contact.append(button);
